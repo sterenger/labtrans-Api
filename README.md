@@ -1,12 +1,12 @@
 # labtrans-Api
 
-- First you we need to install dependencies:
+**  - First you we need to install dependencies: ** 
 
 npm install
 
-- Import labtrans.sql in you database.
+**  - Import labtrans.sql in you database.** 
 
-- Set the connexion to the database in App.js:
+**  - Set the connexion to the database in App.js: ** 
 app.use(
   connection(mysql,{
     host: 'localhost',
@@ -17,15 +17,15 @@ app.use(
   },'request')
 );
 
-- Run the project:
+** - Run the project: ** 
 node bin/www
 
-- Access to the url:
+** - Access to the url: ** 
 http://localhost:3000
 
-- Routes
-*GET /reservations -> Get reservation list
-*POST /reservations -> Add a new reservation
-*GET /reservation/:id -> Return a reservation by ID
-*PUT /reservation/:id -> Update reservation
-*DELETE /reservation/:id -> Delete reservation
+** - Routes :**  
+GET /reservations -> Get reservation list
+POST /reservations -> Add a new reservation
+GET /reservation/:id -> Return a reservation by ID
+PUT /reservation/:id -> Update reservation
+DELETE /reservation/:id -> Delete reservation
