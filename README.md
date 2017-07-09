@@ -24,8 +24,8 @@ node bin/www
 http://localhost:3000
 
 - Routes
-GET /reservations -> Get reservation list
-POST /reservations -> Add a new reservation
-GET /reservation/:id -> Return a reservation by ID
-PUT /reservation/:id -> Update reservation
-DELETE /reservation/:id -> Delete reservation
+*GET /reservations -> Get reservation list
+*POST /reservations -> Add a new reservation
+*GET /reservation/:id -> Return a reservation by ID
+*PUT /reservation/:id -> Update reservation
+*DELETE /reservation/:id -> Delete reservation
